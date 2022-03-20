@@ -1,0 +1,11 @@
+\\vmware-host\Shared Folders\VisualStudio\STSVGRender\STSVGRender\obj\x86\Debug\STSVGRender.Properties.Resources.resources
+\\vmware-host\Shared Folders\VisualStudio\STSVGRender\STSVGRender\obj\x86\Debug\STSVGRender.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\VisualStudio\STSVGRender\STSVGRender\bin\Debug\STSVGRender.exe
+\\vmware-host\Shared Folders\VisualStudio\STSVGRender\STSVGRender\bin\Debug\STSVGRender.pdb
+\\vmware-host\Shared Folders\VisualStudio\STSVGRender\STSVGRender\obj\x86\Debug\STSVGRender.exe
+\\vmware-host\Shared Folders\VisualStudio\STSVGRender\STSVGRender\obj\x86\Debug\STSVGRender.pdb
+\\vmware-host\Shared Folders\VisualStudio\STSVGRender\STSVGRender\bin\Debug\STSVGRender.exe.config
+\\vmware-host\Shared Folders\VisualStudio\STSVGRender\STSVGRender\obj\x86\Debug\STSVGRender.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\VisualStudio\STSVGRender\STSVGRender\bin\Debug\ST.Library.Drawing.dll
+\\vmware-host\Shared Folders\VisualStudio\STSVGRender\STSVGRender\bin\Debug\ST.Library.Drawing.pdb
+\\vmware-host\Shared Folders\VisualStudio\STSVGRender\STSVGRender\obj\x86\Debug\STSVGRender.FrmEmojiRender.resources
