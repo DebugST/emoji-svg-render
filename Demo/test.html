@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./atob.js"></script>
+    </head>
+    <body style="background-color:black;margin:0px;">
+        <div style="color:white;font-size:40px">
+        <span>aaa</span><span style="font-size:2em;background-color:red;display:inline-block;width:1mm;">bbb</span>
+        </div>
+        <div style="height:300px;width:200px;background-color:white;">
+            <img style="width:100%;height:100%" src="./test.svg"/>
+        </div>
+        <hr/>
+        <div style="height:200px;width:200px;background-color:white;">
+<svg style="font-size:32px;preserveAspectRatio:meet" height="100px" width="200px" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <linearGradient id="MyGradient">
+        <stop offset="10%"  stop-color="green"/>
+        <stop offset="50%" stop-color="gold"/>
+        <stop offset="100%" stop-color="red"/>
+    </linearGradient>
+    <g height="1em" stroke="url(#MyGradient)" stroke-dasharray="20,10" stroke-opacity="1" stroke-width="5">
+        <rect  x="0" y="0" width="200" height="1in"  stroke-dashoffset="-6"  fill="blue"/>
+        <line x1="10" y1="10" x2="180" y2="10" stroke="black"/>
+    </g>
+</svg>
+
+        </div>
+        <hr/>
+        <div style="height:200px;width:200px;background-color:white;">
+            <svg id="emoji" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="red" id="path_test" d="M20,50 Q 12.36 41.12 10.80 23.34 17.11 17.03 Q 23.42 10.73 46.54 6.93 60.00 10.00 "/>
+            </svg>
+        </div>
+    </body>
+    <script type="text/javascript">
+        const previousPoint = { x: 20, y: 50 }
+
+        const currentPoint = {
+          x: 60,
+          y: 10,
+          curve: {
+            type: 'arc',
+            rx: 50,
+            ry: 30,
+            largeArcFlag: 0,
+            sweepFlag: 1,
+            xAxisRotation: 20,
+          },
+        };
+
+        const curves = arcToBezier({
+          px: previousPoint.x,
+          py: previousPoint.y,
+          cx: currentPoint.x,
+          cy: currentPoint.y,
+          rx: currentPoint.curve.rx,
+          ry: currentPoint.curve.ry,
+          xAxisRotation: currentPoint.curve.xAxisRotation,
+          largeArcFlag: currentPoint.curve.largeArcFlag,
+          sweepFlag: currentPoint.curve.sweepFlag,
+        });
+
+        let str = "";
+        curves.forEach( c => {
+            //console.log( c );
+            str += " " + c.x1 + " " + c.y1 + " " + c.x2 + " " + c.y2 + " " + c.x + " " + c.y;
+        });
+        console.log(str);
+        document.getElementById("path_test").setAttribute("d","M20,50C" + str);
+    </script>
+</html>
