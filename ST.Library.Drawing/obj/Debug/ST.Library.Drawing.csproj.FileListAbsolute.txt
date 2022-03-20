@@ -1,4 +1,0 @@
-\\vmware-host\Shared Folders\VisualStudio\STSVGRender\ST.Library.Drawing\bin\Debug\ST.Library.Drawing.dll
-\\vmware-host\Shared Folders\VisualStudio\STSVGRender\ST.Library.Drawing\bin\Debug\ST.Library.Drawing.pdb
-\\vmware-host\Shared Folders\VisualStudio\STSVGRender\ST.Library.Drawing\obj\Debug\ST.Library.Drawing.dll
-\\vmware-host\Shared Folders\VisualStudio\STSVGRender\ST.Library.Drawing\obj\Debug\ST.Library.Drawing.pdb
