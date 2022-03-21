@@ -2,7 +2,7 @@
 # emoji-svg-render
 emoji-svg-render is an svg renderer that only competes for emoji expressions. So the code is very lightweight.
 
-<img src="https://raw.githubusercontent.com/DebugST/emoji-svg-render/main/images/EmojiRenderForm.png"/>
+![EmojiRenderForm](https://gitee.com/DebugST/emoji-svg-render/raw/main/images/EmojiRenderForm.png)
 
 ```cs
 private void FrmEmojiRender_Load(object sender, EventArgs e) {
@@ -33,7 +33,11 @@ private void button1_Click(object sender, EventArgs e) {
 
 NOTE：`lineargradient` `radialgradient` implementation is not complete, and complex gradients cannot currently be implemented. such as transform
 
-So this project is friendly to Emoji support without gradients.
+So this project is friendly to Emoji support without gradients. 
+
+such as:
+
+[Openmoji](https://openmoji.org/library/) [Twemoji](https://github.com/twitter/twemoji)
 
 # Extend
 
