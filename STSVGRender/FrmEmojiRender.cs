@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 
 using ST.Library.Drawing;
+using ST.Library.Drawing.SvgRender;
 
 namespace STSVGRender
 {
@@ -37,6 +38,30 @@ namespace STSVGRender
                 m_redner.DrawEmoji(g, strEmoji, 100, 50, 50, true);
                 // Note: the selected mean that...like the selected text forecolor .. 
                 // When emoji selected DrawEmoji will set the alpha 0.5
+            }
+        }
+
+        public class SvgTestElement : SvgElement
+        {
+
+            public override string TargetName {
+                get { throw new NotImplementedException(); }
+            }
+
+            public override bool AllowElementDraw {
+                get { throw new NotImplementedException(); }
+            }
+
+            protected override void OnInitAttribute(string strName, string strValue) {
+                throw new NotImplementedException();
+            }
+
+            public override System.Drawing.Drawing2D.GraphicsPath GetPath() {
+                throw new NotImplementedException();
+            }
+
+            protected override void Dispose() {
+                throw new NotImplementedException();
             }
         }
     }
