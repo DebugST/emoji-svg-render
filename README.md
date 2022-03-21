@@ -37,7 +37,7 @@ So this project is friendly to Emoji support without gradients.
 
 such as:
 
-`[Openmoji](https://openmoji.org/library/)` `[Twemoji](https://github.com/twitter/twemoji)`
+[`Openmoji`](https://openmoji.org/library/) [`Twemoji`](https://github.com/twitter/twemoji)
 
 # Extend
 
