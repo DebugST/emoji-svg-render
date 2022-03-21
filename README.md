@@ -1,6 +1,6 @@
 [![VS2010](https://img.shields.io/badge/Visual%20Studio-2010-blueviolet)](https://visualstudio.microsoft.com/zh-hans/vs/)   [![.NET40](https://img.shields.io/badge/DotNet-4.0-blue)](https://www.microsoft.com/zh-cn/download/details.aspx?id=25150)    [![license](https://img.shields.io/badge/License-MIT-green)](https://github.com/DebugST/emoji-svg-render/blob/main/LICENSE)
 # emoji-svg-render
-emoji-svg-render is an svg renderer that only competes for emoji expressions. So the code is very lightweight.
+emoji-svg-render is an svg renderer for emoji only. So the code is very lightweight.
 
 ![EmojiRenderForm](https://gitee.com/DebugST/emoji-svg-render/raw/main/images/EmojiRenderForm.png)
 
@@ -37,7 +37,7 @@ So this project is friendly to Emoji support without gradients.
 
 such as:
 
-[Openmoji](https://openmoji.org/library/) [Twemoji](https://github.com/twitter/twemoji)
+`[Openmoji](https://openmoji.org/library/)` `[Twemoji](https://github.com/twitter/twemoji)`
 
 # Extend
 
