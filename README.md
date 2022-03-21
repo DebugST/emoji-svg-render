@@ -27,6 +27,12 @@ private void button1_Click(object sender, EventArgs e) {
 }
 ```
 
+# Nuget
+
+```
+Install-Package ST.Library.Drawing.SvgRender.dll -Version 1.0.0
+```
+
 # Implemented svg elements
 
 `circle` `ellipse` `g` `line` `path` `polygon` `polyline` `lineargradient` `radialgradient` `stop` `rect` `defs` `use`
@@ -35,9 +41,7 @@ NOTE：`lineargradient` `radialgradient` implementation is not complete, and com
 
 So this project is friendly to Emoji support without gradients. 
 
-such as:
-
-[`Openmoji`](https://openmoji.org/library/) [`Twemoji`](https://github.com/twitter/twemoji)
+such as: [`Openmoji`](https://openmoji.org/library/) [`Twemoji`](https://github.com/twitter/twemoji)
 
 # Extend
 
