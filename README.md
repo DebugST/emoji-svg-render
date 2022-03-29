@@ -2,7 +2,7 @@
 # emoji-svg-render
 emoji-svg-render is an svg renderer for emoji only. So the code is very lightweight.
 
-![EmojiRenderForm](https://gitee.com/DebugST/emoji-svg-render/raw/main/images/EmojiRenderForm.png)
+![EmojiRenderForm](https://raw.githubusercontent.com/DebugST/emoji-svg-render/main/images/EmojiRenderForm.png)
 
 ```cs
 private void FrmEmojiRender_Load(object sender, EventArgs e) {
