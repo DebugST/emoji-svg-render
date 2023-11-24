@@ -2,7 +2,7 @@
 # emoji-svg-render
 emoji-svg-render is an svg renderer for emoji only. So the code is very lightweight.
 
-Thanks: [netero](https://github.com/0x54164)
+Thanks: [tpbeldie](https://github.com/tpbeldie)
 
 ![EmojiRenderForm](https://s1.ax1x.com/2022/03/29/q6e7in.png)
 
